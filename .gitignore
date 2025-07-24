@@ -1,0 +1,5 @@
+.env
+.env # OpenAI keys, etc.
+.hf_cache/ # Hugging Face downloads
+chroma_store/ # binary vector data
+__pycache__/

@@ -1,0 +1,19 @@
+id,subject,body
+1,Model selection,Which OpenAI model should we use for summarising 10-page legal briefs quickly but accurately?
+2,Hallucination issue,The chatbot invented a policy that doesn’t exist. How do we reduce hallucinations?
+3,Rate-limit errors,We are hitting the 429 rate-limit on the API during peak hours—what are our options?
+4,Fine-tuning cost,Roughly how much does it cost to fine-tune GPT-3.5 on 50 k training examples?
+5,Prompt best practices,Any guidelines for writing prompts that minimise latency and tokens?
+6,Data privacy,"Can we send PII through the OpenAI API, or do we need an enterprise agreement first?"
+7,Vector DB choice,Is Pinecone overkill for <2 k documents? Alternatives?
+8,Latency spikes,Inference latency jumped from 2 s to 8 s this morning—possible causes?
+9,Embedding dimensions,Why do text-embedding-3-small vectors have 1 536 dims—can we down-project safely?
+10,Content filters,Our AI sometimes outputs adult content. How do we integrate the moderation endpoint?
+11,Model updates,OpenAI just released GPT-4o-mini—any breaking changes if we switch?
+12,Token budgeting,How do we estimate monthly token usage for a Slack bot answering ~5 k messages/day?
+13,Copyright & AI output,Are generated images safe to use in marketing without additional licenses?
+14,Monitoring metrics,What should we log to detect model drift in production?
+15,Chain-of-thought leaks,"We need rationales for audit, but don’t want to expose them to end-users. Best approach?"
+16,Tool invocation,How do we pass structured JSON so the model can call our internal FAQ search function?
+17,Multi-lang support,What’s the simplest way to add Spanish & French answers without doubling cost?
+18,Rollback plan,"If a new model causes regressions, how do we hot-swap back with minimal downtime?"
